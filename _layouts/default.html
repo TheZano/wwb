@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <title>{{ page.title | default: site.title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="{{site.baseurl}}/css/common.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal website</title>
+    <style></style>
   </head>
   <body>
     {% include header.html %}
 
-    {{ content }}
-
+    <div class="row">
+      <div class="column side" style="background-color:tomato;">
+        {% include categories.html %}
+      </div>
+      <div class="column middle" style="background-color:#bbb;">
+        {{ content }}
+      </div>
+      <div class="column left"></div>
+    </div>
     {% include footer.html %}
   </body>
 </html>

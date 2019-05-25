@@ -1,3 +1,4 @@
 markdown: kramdown
 baseurl: /wwb
 exclude: ['README.md']
+title: Fauzan's Personal Website
