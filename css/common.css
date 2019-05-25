@@ -91,4 +91,7 @@ body {
   .header {
     width: 100%;
   }
+	body {
+	padding: 25px;
+}
 }
