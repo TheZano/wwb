@@ -89,10 +89,11 @@ body {
   .column.side,
   .column.middle,
   .header {
+    padding: 20px;
     width: 100%;
   }
 	body {
-	padding: 5px;
+	padding: 9px;
         margin: 0 auto;
 
 }
