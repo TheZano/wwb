@@ -92,6 +92,8 @@ body {
     width: 100%;
   }
 	body {
-	padding: 25px;
+	padding:0 15px;
+        margin: 0 auto;
+
 }
 }
