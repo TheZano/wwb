@@ -175,6 +175,7 @@ body {
 	.categories ul li{
 		display: inline-block;
 		margin-right: 10px;
+		float:right;
 	}
 	.categories ul {
 		margin-bottom: 0;
