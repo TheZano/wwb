@@ -7,7 +7,7 @@ title: Personal Site
 <ul>
   <li>
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    <p>{{ post.excerpt }}</p>
+    <p>{{ post.content | strip_html | truncatewords: 45 | append: "" }}</p>
   </li>
 </ul>
 {% endfor %}
