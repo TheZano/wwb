@@ -116,7 +116,14 @@ body {
 	}
 	body {
 	padding: 9px;
-        margin: 0 auto;
+  margin: 0 auto;
 
 }
+  .categories h3 {
+    display: none;
+    }
+  .categories ul li{
+    display: inline-block;
+		margin-right: 10px;
+    }
 }

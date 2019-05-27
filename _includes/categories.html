@@ -1,5 +1,5 @@
 <div class="categories">
-  <h2>Categories</h2>
+  <h3>Categories</h3>
   <ul>
     <li><a href="{{ site.baseurl }}/love.html">Love({% assign counter = 0 %}{% for item in site.categories.love %}{% unless item.published == false %}{% assign counter=counter | plus:1 %}{% endunless %}{% endfor %}{{ counter }})</a></li>
     <li><a href="{{ site.baseurl }}/science.html">Science({% assign counter = 0 %}{% for item in site.categories.science %}{% unless item.published == false %}{% assign counter=counter | plus:1 %}{% endunless %}{% endfor %}{{ counter }})</a></li>
