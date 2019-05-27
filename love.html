@@ -6,7 +6,9 @@ title: Personal Site
 {% for post in site.categories.love %}
 <ul>
   <li>
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <h2>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
     <p>{{ post.content | strip_html | truncatewords: 45 | append: "" }}</p>
   </li>
 </ul>
